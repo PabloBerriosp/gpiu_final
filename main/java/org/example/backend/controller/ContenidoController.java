@@ -34,6 +34,7 @@ public class ContenidoController {
         return contenidoService.listarContenidos();
     }
 
+    
     @GetMapping("/{id}")
     public ResponseEntity<?> obtenerPorId(@PathVariable Long id) {
         try {

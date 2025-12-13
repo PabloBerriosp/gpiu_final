@@ -34,7 +34,7 @@ public class ContenidoService {
         LocalDate inicio = contenido.getVigenciaInicio();
         LocalDate fin = contenido.getVigenciaFin();
         if (inicio != null && fin != null && fin.isBefore(inicio)) {
-            throw new IllegalArgumentException("La vigencia fin no puede ser anterior a la fecha de inicio");
+            throw new IllegalArgumentException("La vigencia fin no puede ser anterior a la fecha de inicio ");
         }
 
         if (contenido.getEstado() == null || contenido.getEstado().isBlank()) {

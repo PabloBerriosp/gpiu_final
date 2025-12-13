@@ -50,6 +50,6 @@ public class ContenidoService {
 
     public Contenido obtenerPorId(Long id) {
         return contenidoRepository.findById(id)
-                .orElseThrow(() -> new IllegalArgumentException("Contenido no encontrado con id: " + id));
+                .orElseThrow(() -> new IllegalArgumentException("Contenido no encontrado con id:  " + id));
     }
 }

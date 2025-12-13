@@ -87,6 +87,7 @@ public class Contenido {
         this.visibilidad = visibilidad;
     }
 
+    
     public void setVigenciaInicio(LocalDate vigenciaInicio) {
         this.vigenciaInicio = vigenciaInicio;
     }

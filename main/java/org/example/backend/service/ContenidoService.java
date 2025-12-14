@@ -8,6 +8,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 
+
 @Service
 public class ContenidoService {
     
@@ -44,7 +45,6 @@ public class ContenidoService {
 
         return contenidoRepository.save(contenido);
     }
-
     public List<Contenido> listarContenidos() {
         return contenidoRepository.findAll();
     }
